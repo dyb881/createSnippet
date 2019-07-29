@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+import { observable, action } from 'mobx';
+import Store from './';
+
+export default class View {
+  root: Store;
+
+  constructor(root: Store) {
+    this.root = root;
+  }
+}
+]]></content>
+  <tabTrigger>cms</tabTrigger>
+  <description>创建 mobx store</description>
+</snippet>

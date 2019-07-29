@@ -1,0 +1,37 @@
+<snippet>
+  <content><![CDATA[
+export default class ${1:组件名} extends React.Component {
+
+  constructor(props) { // 构造函数
+    super(props);
+    this.state = {};
+  }
+
+  componentDidMount() { // 在第一次渲染后调用
+  }
+
+  shouldComponentUpdate() { // 返回一个布尔值。在组件接收到新的props或者state时被调用
+  }
+
+  static getDerivedStateFromProps(nextProps, prevState) { // 每次获取新的props或state之后
+  }
+
+  getSnapshotBeforeUpdate(prevProps, prevState) { // update发生的时候，在render之后 返回一个值，作为componentDidUpdate的第三个参数
+  }
+
+  componentDidUpdate() { // 在组件完成更新后立即调用。在初始化时不会被调用
+  }
+
+  componentWillUnmount() { // 在组件从 DOM 中移除的时候立刻被调用。
+  }
+
+  render() {
+    return (
+      ${2:<div></div>}
+    );
+  }
+}
+]]></content>
+  <tabTrigger>rc</tabTrigger>
+  <description>react组件-生命周期</description>
+</snippet>

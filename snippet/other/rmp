@@ -1,0 +1,13 @@
+import React from 'react';
+import { inject, observer } from "mobx-react";
+import style from './style.module.less';
+
+@inject("store")
+@observer
+export default class ${1:组件名} extends React.Component {
+  render() {
+    return (
+      ${2:<div></div>}
+    );
+  }
+}

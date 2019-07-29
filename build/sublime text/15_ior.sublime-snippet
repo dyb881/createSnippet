@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+@inject("store")
+@observer
+export default class ${1:组件名} extends React.Component {
+  render() {
+    return (
+      ${2:<div></div>}
+    );
+  }
+}
+]]></content>
+  <tabTrigger>ior</tabTrigger>
+  <description>带 mobx 装饰器的 react组件</description>
+</snippet>

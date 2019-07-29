@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+const {} = this.state;
+]]></content>
+  <tabTrigger>cs</tabTrigger>
+  <description>react 状态</description>
+</snippet>

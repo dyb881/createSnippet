@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+@inject("store")
+@observer
+]]></content>
+  <tabTrigger>io</tabTrigger>
+  <description>mobx 装饰器</description>
+</snippet>

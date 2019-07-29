@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+import style from './style.module.less';
+]]></content>
+  <tabTrigger>is</tabTrigger>
+  <description>引用样式文件</description>
+</snippet>

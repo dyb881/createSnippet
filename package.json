@@ -1,0 +1,22 @@
+{
+  "name": "@dyb881/createsnippet",
+  "version": "1.0.0",
+  "description": "根据配置文件生成 ide 代码片段文件",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dyb881/createSnippet.git"
+  },
+  "keywords": [
+    "snippet"
+  ],
+  "author": "dyb881",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dyb881/createSnippet/issues"
+  },
+  "homepage": "https://github.com/dyb881/createSnippet#readme"
+}

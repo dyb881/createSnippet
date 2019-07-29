@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+import { ${1} } from 'antd';
+]]></content>
+  <tabTrigger>ia</tabTrigger>
+  <description>引用antd</description>
+</snippet>

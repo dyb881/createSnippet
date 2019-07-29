@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+const ${1:组件名} = ({...props}) => (
+  ${2:<div></div>}
+)
+]]></content>
+  <tabTrigger>rfc</tabTrigger>
+  <description>react 函数组件</description>
+</snippet>
