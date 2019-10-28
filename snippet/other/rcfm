@@ -1,0 +1,5 @@
+export const ${1:组件名}: React.SFC<TStore> = inject('store')(
+  observer(({ store, ...props }) => (
+    ${2:<div></div>}
+  ))
+);

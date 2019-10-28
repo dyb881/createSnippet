@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+export const ${1:组件名}: React.SFC<TStore> = inject('store')(
+  observer(({ store, ...props }) => (
+    ${2:<div></div>}
+  ))
+);
+]]></content>
+  <tabTrigger>rcfm</tabTrigger>
+  <description>带 mobx HOC的函数组件</description>
+</snippet>

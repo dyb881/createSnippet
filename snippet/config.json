@@ -20,6 +20,16 @@
     "description": "引用react路由"
   },
   {
+    "content": "import { ${1} } from 'types';",
+    "trigger": "it",
+    "description": "引用常用类型"
+  },
+  {
+    "content": "import classNames from 'classnames';",
+    "trigger": "icn",
+    "description": "引用类组合器"
+  },
+  {
     "content": "import style from './style.module.less';",
     "trigger": "is",
     "description": "引用样式文件"
@@ -80,8 +90,23 @@
     "description": "带 mobx 装饰器的 react组件"
   },
   {
+    "content": "inject('store')(observer(${1:C}));",
+    "trigger": "ioc",
+    "description": "mobx HOC"
+  },
+  {
     "file": "other/rmp",
     "trigger": "rmp",
     "description": "创建页面"
+  },
+  {
+    "file": "other/rcfm",
+    "trigger": "rcfm",
+    "description": "带 mobx HOC的函数组件"
+  },
+  {
+    "file": "other/rcfp",
+    "trigger": "rcfp",
+    "description": "带 mobx HOC的页面组件"
   }
 ]

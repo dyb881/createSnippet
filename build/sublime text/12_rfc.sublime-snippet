@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-const ${1:组件名} = ({...props}) => (
+const ${1:组件名} = ({ ...props }) => (
   ${2:<div></div>}
 )
 ]]></content>

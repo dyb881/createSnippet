@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+import { ${1} } from 'types';
+]]></content>
+  <tabTrigger>it</tabTrigger>
+  <description>引用常用类型</description>
+</snippet>

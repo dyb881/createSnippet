@@ -2,11 +2,11 @@
   <content><![CDATA[
 import React from 'react';
 import { inject, observer } from "mobx-react";
-import style from './style.module.less';
+import { TStore } from 'types';
 
 @inject("store")
 @observer
-export default class ${1:组件名} extends React.Component {
+export default class ${1:Page} extends React.Component<TStore> {
   render() {
     return (
       ${2:<div></div>}

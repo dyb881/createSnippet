@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+import classNames from 'classnames';
+]]></content>
+  <tabTrigger>icn</tabTrigger>
+  <description>引用类组合器</description>
+</snippet>
